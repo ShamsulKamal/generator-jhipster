@@ -1,0 +1,12 @@
+{
+    "tracker": {
+        "title": "Aktiviti pengguna masa nyata",
+        "table": {
+            "userlogin": "Pengguna",
+            "ipaddress": "Alamat IP",
+            "userAgent": "Agen pengguna",
+            "page": "Halaman semasa",
+            "time": "Masa"
+        }
+    }
+}

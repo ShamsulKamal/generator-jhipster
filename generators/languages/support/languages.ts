@@ -200,6 +200,7 @@ const partialLanguages: PartialLanguage[] = [
   { name: 'Italian', displayName: 'Italiano', languageTag: 'it' },
   { name: 'Japanese', displayName: '日本語', languageTag: 'ja' },
   { name: 'Korean', displayName: '한국어', languageTag: 'ko' },
+  { name: 'Malay', displayName: 'Bahasa Melayu', languageTag: 'ms' },
   { name: 'Marathi', displayName: 'मराठी', languageTag: 'mr' },
   { name: 'Myanmar', displayName: 'မြန်မာ', languageTag: 'my' },
   { name: 'Polish', displayName: 'Polski', languageTag: 'pl' },

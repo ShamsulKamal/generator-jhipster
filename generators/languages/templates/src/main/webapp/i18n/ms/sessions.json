@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "Sesi aktif untuk [<strong>{{username}}</strong>]",
+        "table": {
+            "ipaddress": "Alamat IP",
+            "useragent": "Pengguna Agen",
+            "date": "Tarikh",
+            "button": "Nyahaktifkan"
+        },
+        "messages": {
+            "success": "<strong>Sesi telah dinyahaktifkan!</strong>",
+            "error": "<strong>Telah berlaku ralat!</strong> Sesi tidak dapat dinyahaktifkan."
+        }
+    }
+}

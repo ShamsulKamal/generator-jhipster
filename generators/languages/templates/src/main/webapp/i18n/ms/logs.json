@@ -1,0 +1,11 @@
+{
+    "logs": {
+        "title": "Log",
+        "nbloggers": "Terdapat {{ total }} logger.",
+        "filter": "Tapis",
+        "table": {
+            "name": "Nama",
+            "level": "Tahap"
+        }
+    }
+}

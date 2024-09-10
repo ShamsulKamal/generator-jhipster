@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "title": "Tetapan pengguna untuk [<strong>{{username}}</strong>]",
+        "form": {
+            "firstname": "Nama Pertama",
+            "firstname.placeholder": "Nama pertama anda",
+            "lastname": "Nama Akhir",
+            "lastname.placeholder": "Nama akhir anda",
+            "language": "Bahasa",
+            "button": "Simpan"
+        },
+        "messages": {
+            "error": {
+                "fail": "<strong>Telah berlaku ralat!</strong> Tetapan tidak dapat disimpan.",
+                "emailexists": "<strong>Email sudah digunakan!</strong> Sila pilih yang lain."
+            },
+            "success": "<strong>Tetapan disimpan!</strong>",
+            "validate": {
+                "firstname": {
+                    "required": "Nama pertama anda diperlukan.",
+                    "minlength": "Nama pertama anda perlu sekurang-kurangnya 1 aksara",
+                    "maxlength": "Nama pertama anda tidak boleh lebih panjang daripada 50 aksara"
+                },
+                "lastname": {
+                    "required": "Nama akhir anda diperlukan.",
+                    "minlength": "Nama akhir anda perlu sekurang-kurangnya 1 aksara",
+                    "maxlength": "Nama akhir anda tidak boleh lebih panjang daripada 50 aksara"
+                }
+            }
+        }
+    }
+}

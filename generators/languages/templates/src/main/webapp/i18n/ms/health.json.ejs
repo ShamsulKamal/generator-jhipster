@@ -1,0 +1,74 @@
+<%#
+ Copyright 2013-2024 the original author or authors from the JHipster project.
+
+ This file is part of the JHipster project, see https://www.jhipster.tech/
+ for more information.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-%>
+{
+    "health": {
+        "title": "Pemeriksaan Kesihatan",
+        "refresh.button": "Muat semula",
+        "stacktrace": "Stacktrace",
+        "details": {
+            "details": "Butiran",
+            "properties": "Ciri-ciri",
+            "name": "Nama",
+            "value": "Nilai",
+            "error": "Ralat"
+        },
+        "indicator": {
+<%_ if (messageBrokerAny) { _%>
+            "binders": "Broker mesej",
+<%_ } _%>
+<%_ if (applicationTypeGateway || serviceDiscoveryAny) { _%>
+            "discoveryComposite": "Komposit penemuan",
+            "refreshScope": "Skop penyegaran mikroservis",
+            "clientConfigServer": "Pelayan konfigurasi mikroservis",
+            "hystrix": "Hystrix",
+  <%_ if (serviceDiscoveryConsul) { _%>
+            "consul": "Consul",<% } else if (reactive) { %>
+            "reactiveDiscoveryClients": "Klien penemuan mikroservis",
+  <%_ } _%>
+<%_ } _%>
+<%_ if (cacheProviderHazelcast) { _%>
+            "hazelcast": "Hazelcast",
+<%_ } _%>
+            "diskSpace": "Ruang cakera",
+            "mail": "Emel",
+            "livenessState": "Keadaan liveness",
+            "readinessState": "Keadaan kesiapsiagaan",
+            "ping": "Applikasi"<% if (searchEngineElasticsearch) { %>,
+            "elasticsearch": "Elasticsearch"<% } %><% if (databaseTypeSql && !reactive) { %>,
+            "db": "Pengkalan data"<% } %><% if (databaseTypeSql && reactive) { %>,
+            "r2dbc": "Pengkalan data"<% } %><% if (databaseTypeMongodb) { %>,
+            "mongo": "MongoDB"<% } %><% if (databaseTypeCassandra) { %>,
+            "cassandra": "Cassandra"<% } %><% if (databaseTypeCouchbase) { %>,
+            "couchbase": "Couchbase"<% } %><% if (databaseTypeNeo4j) { %>,
+            "neo4j": "Neo4j"<% } %>
+        },
+        "table": {
+            "service": "Nama perkhidmatan",
+            "status": "Status"
+        },
+        "status": {
+            "UNKNOWN": "TIDAK DIKETAHUI",
+            "UP": "BEROPERASI",
+<%_ if (clientFrameworkAngular) { _%>
+            "OUT_OF_SERVICE": "TIDAK BEROPERASI",
+<%_ } _%>
+            "DOWN": "TIDAK BEROPERASI"
+        }
+    }
+}

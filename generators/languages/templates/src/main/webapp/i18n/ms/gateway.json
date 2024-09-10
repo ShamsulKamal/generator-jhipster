@@ -1,0 +1,15 @@
+{
+    "gateway": {
+        "title": "Gateway",
+        "routes": {
+            "title": "Laluan semasa",
+            "url": "URL",
+            "service": "Perkhidmatan",
+            "servers": "Pelayan(server) tersedia",
+            "error": "Amaran: tiada pelayan(server) tersedia!"
+        },
+        "refresh": {
+            "button": "Muat semula"
+        }
+    }
+}

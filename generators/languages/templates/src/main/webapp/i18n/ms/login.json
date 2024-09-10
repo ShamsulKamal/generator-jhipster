@@ -1,0 +1,19 @@
+{
+    "login": {
+        "title": "Log masuk",
+        "form": {
+            "password": "Kata laluan",
+            "password.placeholder": "Kata laluan anda",
+            "rememberme": "Ingat saya",
+            "button": "Log masuk"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>Gagal log masuk!</strong> Sila periksa kelayakan anda dan cuba lagi."
+            }
+        },
+        "password": {
+            "forgot": "Adakah anda terlupa kata laluan anda?"
+        }
+    }
+}

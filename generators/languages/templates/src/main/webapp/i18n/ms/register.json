@@ -1,0 +1,24 @@
+{
+    "register": {
+        "title": "Pendaftaran",
+        "form": {
+            "button": "Daftar"
+        },
+        "messages": {
+            "validate": {
+                "login": {
+                    "required": "Nama pengguna anda diperlukan.",
+                    "minlength": "Nama pengguna anda mesti mempunyai sekurang-kurangnya 1 aksara.",
+                    "maxlength": "Nama pengguna anda tidak boleh melebihi 50 aksara.",
+                    "pattern": "Nama pengguna anda tidak sah."
+                }
+            },
+            "success": "<strong>Pendaftaran disimpan!</strong> Sila semak e-mel anda untuk pengesahan.",
+            "error": {
+                "fail": "<strong>Pendaftaran gagal!</strong> Sila cuba lagi nanti.",
+                "userexists": "<strong>Nama pengguna sudah didaftarkan!</strong> Sila pilih yang lain.",
+                "emailexists": "<strong>E-mel sudah digunakan!</strong> Sila pilih yang lain."
+            }
+        }
+    }
+}

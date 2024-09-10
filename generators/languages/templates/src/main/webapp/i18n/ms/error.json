@@ -1,0 +1,14 @@
+{
+    "error": {
+        "title": "Halaman ralat!",
+        "http": {
+            "400": "Permintaan tidak sah.",
+            "403": "Anda tidak dibenarkan untuk mengakses halaman ini.",
+            "404": "Halaman ini tidak wujud.",
+            "405": "Kaedah HTTP yang anda gunakan tidak disokong untuk URL ini.",
+            "500": "Ralat pelayan dalaman."
+        },
+        "concurrencyFailure": "Pengguna lain yang mengubah data ini pada masa yang sama. Perubahan anda telah ditolak.",
+        "validation": "Ralat pengesahan pada pelayan."
+    }
+}

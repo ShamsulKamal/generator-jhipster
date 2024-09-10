@@ -1,0 +1,31 @@
+{
+    "userManagement": {
+        "home": {
+            "title": "Pengguna",
+            "refreshListLabel": "Segarkan senarai",
+            "createLabel": "Cipta pengguna baharu",
+            "createOrEditLabel": "Cipta atau edit pengguna"
+        },
+        "created": "Pengguna baharu telah dicipta dengan pengecam {{ param }}",
+        "updated": "Pengguna telah dikemas kini dengan pengecam {{ param }}",
+        "deleted": "Pengguna telah dipadam dengan pengecam {{ param }}",
+        "delete": {
+            "question": "Adakah anda pasti mahu memadam pengguna {{ login }}?"
+        },
+        "detail": {
+            "title": "Pengguna"
+        },
+        "login": "Login",
+        "firstName": "Nama pertama",
+        "lastName": "Nama terakhir",
+        "email": "Email",
+        "activated": "Diaktifkan",
+        "deactivated": "Dinonaktifkan",
+        "profiles": "Profil",
+        "langKey": "Bahasa",
+        "createdBy": "Dicipta oleh",
+        "createdDate": "Tarikh dicipta",
+        "lastModifiedBy": "Dipinda oleh",
+        "lastModifiedDate": "Tarikh dipinda"
+    }
+}

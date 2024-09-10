@@ -1,0 +1,171 @@
+<%#
+ Copyright 2013-2024 the original author or authors from the JHipster project.
+
+ This file is part of the JHipster project, see https://www.jhipster.tech/
+ for more information.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-%>
+{
+    "global": {
+        "title": "<%= capitalizedBaseName %>",
+        "browsehappy": "Anda menggunakan pelayar <strong>lapuk</strong>. Sila <a href=\"http://browsehappy.com/?locale=en\">kemas kini pelayar anda</a> untuk meningkatkan pengalaman anda.",
+        "menu": {
+            "home": "Laman Utama",
+            "jhipster-needle-menu-add-element": "JHipster akan menambah entri menu tambahan di sini (jangan terjemah!)",
+            "entities": {
+                "main": "Entitas",
+                "jhipster-needle-menu-add-entry": "JHipster akan menambah entiti tambahan di sini (jangan terjemah!)"
+            },
+            "account": {
+                "main": "Akaun",
+                "settings": "Tetapan",
+                "password": "Kata Laluan",
+                "sessions": "Sesi",
+                "login": "Log Masuk",
+                "logout": "Log Keluar",
+                "register": "Daftar"
+            },
+            "admin": {
+                "main": "Pentadbiran",
+<%_ if (applicationTypeGateway) { _%>
+                "gateway": "Gerbang",
+<%_ } _%>
+                "userManagement": "Pengurusan pengguna",
+                "tracker": "Penjejak pengguna",
+                "metrics": "Metrik",
+                "health": "Kesihatan",
+                "configuration": "Konfigurasi",
+                "logs": "Logs",
+                "apidocs": "API",
+                "database": "Pengkalan Data (DB)",
+                "jhipster-needle-menu-add-admin-element": "JHipster akan menambah entri menu tambahan di sini (jangan terjemah!)"
+            },
+            "language": "Bahasa"
+        },
+        "form": {
+            "username.label": "Username",
+            "username.placeholder": "Username anda",
+            "currentpassword.label": "Kata laluan semasa",
+            "currentpassword.placeholder": "Kata laluan semasa",
+            "newpassword.label": "Kata laluan baharu",
+            "newpassword.placeholder": "Kata laluan baharu",
+            "confirmpassword.label": "Pengesahan kata laluan baharu",
+            "confirmpassword.placeholder": "Sahkan kata laluan baharu",
+            "email.label": "Emel",
+            "email.placeholder": "Emel anda"
+        },
+        "messages": {
+            "info": {
+                "authenticated": {
+                    "prefix": "Jika anda ingin ",
+                    "link": "log masuk",
+                    "suffix": ", anda boleh mencuba akaun yang sudah ada:<br/>- Administrator (username=\"admin\" and password=\"admin\") <br/>- User (username=\"user\" and password=\"user\")."
+                },
+                "register": {
+                    "noaccount": "Belum mempunyai akaun?",
+                    "link": "Daftar akaun baharu"
+                }
+            },
+            "error": {
+                "dontmatch": "Kata laluan dan pengesahannya tidak sepadan!"
+            },
+            "validate": {
+                "newpassword": {
+                    "required": "Kata laluan anda diperlukan.",
+                    "minlength": "Kata laluan anda perlu sekurang-kurangnya 4 aksara.",
+                    "maxlength": "Kata laluan anda tidak boleh melebihi 50 aksara.",
+                    "strength": "Kekuatan kata laluan:"
+                },
+                "confirmpassword": {
+                    "required": "Kata laluan pengesahan anda diperlukan.",
+                    "minlength": "Kata laluan pengesahan anda perlu sekurang-kurangnya 4 aksara.",
+                    "maxlength": "Kata laluan pengesahan anda tidak boleh melebihi 50 aksara."
+                },
+                "email": {
+                    "required": "Emel anda diperlukan.",
+                    "invalid": "Emel anda tidak sah.",
+                    "minlength": "Emel anda perlu sekurang-kurangnya 5 aksara.",
+                    "maxlength": "Emel anda tidak boleh melebihi 50 aksara."
+                }
+            }
+        },
+        "field": {
+            "id": "ID"
+        },
+        "ribbon": {
+            "dev": "dev"
+        },
+        "item-count": "Menunjukkan {{first}} - {{second}} daripada {{total}} item."
+    },
+    "entity": {
+        "action": {
+            "addblob": "Tambah blob",
+            "addimage": "Tambah gambar",
+            "back": "Kembali",
+            "cancel": "Batal",
+            "delete": "Padam",
+            "edit": "Sunting",
+            "open": "Buka",
+            "save": "Simpan",
+            "view": "Lihat",
+            "show": "Tunjukkan {{otherEntity}}"
+        },
+        "detail": {
+            "field": "Medan",
+            "value": "Nilai"
+        },
+        "delete": {
+            "title": "Sahkan operasi pemadaman"
+        },
+        "validation": {
+            "required": "Medan ini diperlukan.",
+            "minlength": "Medan ini perlu sekurang-kurangnya {{ min }} aksara.",
+            "maxlength": "Medan ini tidak boleh melebihi {{ max }} aksara.",
+            "min": "Medan ini sekurang-kurangnya perlu bernilai {{ min }}.",
+            "max": "Medan ini tidak boleh melebihi {{ max }}.",
+            "minbytes": "Medan ini perlu sekurang-kurangnya {{ min }} bait.",
+            "maxbytes": "Medan ini tidak boleh melebihi {{ max }} bait.",
+            "pattern": "Medan ini perlu mengikut corak {{ pattern }}.",
+            "number": "Medan ini perlu nombor.",
+            "datetimelocal": "Medan ini perlu tarikh dan masa.",
+            "patternLogin": "Medan ini hanya boleh mengandungi huruf, digit dan alamat e-mel."
+        },
+        "filters": {
+          "set": "Penapis berikut telah ditetapkan",
+          "clear": "Kosongkan penapis",
+          "clearAll": "Kosongkan semua penapis"
+        }
+    },
+    "error": {
+        "internalServerError": "Ralat pelayan dalaman",
+        "server.not.reachable": "Pelayan tidak dapat dicapai",
+        "url.not.found": "Tidak dijumpai",
+        "NotNull": "Medan {{ fieldName }} tidak boleh kosong!",
+        "Size": "Medan {{ fieldName }} tidak memenuhi keperluan saiz minimum/maksimum!",
+        "userexists": "Nama log masuk telah digunakan!",
+        "emailexists": "Emel telah digunakan!",
+        "idexists": "Satu {{ entityName }} baharu tidak boleh mempunyai ID sedia ada",
+        "idnull": "ID tidak sah",
+        "idinvalid": "ID tidak sah",
+        "idnotfound": "ID tidak dijumpai",
+<%_ if (searchEngineElasticsearch) { _%>
+        "querySyntaxError": "Pertanyaan carian tidak sah",
+<%_ } _%>
+        "file": {
+            "could.not.extract": "Tidak dapat mengekstrak fail",
+            "not.image": "Fail dijangka imej tetapi didapati \"{{ fileType }}\""
+        }
+    },
+    "footer": "Ini adalah bahagian kaki anda"
+}
